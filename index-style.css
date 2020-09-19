@@ -1,0 +1,9 @@
+.container{
+    background-image: url("assets/spiral.jpg");
+}
+
+.contaier .row .col-md-8 img{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
