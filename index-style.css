@@ -1,9 +1,14 @@
 .container{
+    background-color: aqua;
     background-image: url("assets/spiral.jpg");
+    padding: 50px 150px 20px 10px;
 }
-
-.contaier .row .col-md-8 img{
-    height: 150px;
-    width: 150px;
-    overflow: hidden;
+article{
+    background-color: antiquewhite;
+    padding: 20px;
 }
+section img {
+    width:100px;
+    height:100px;
+    background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+  }
