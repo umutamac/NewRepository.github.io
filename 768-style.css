@@ -8,6 +8,7 @@
         width: 100%;
         padding: 10px;
         background-color: beige;
+        z-index: 5;
     }
     .header-row{
         margin: 0px 10px;
@@ -18,9 +19,14 @@
         font-weight: bold;
         color: white;
         background-color: teal;
+        margin-top: 10px;
     }
-    header .dropdown{
+    .navbar-toggler-icon{
+        margin-top: 0px;
+    }
+    header .navbar{
         float: right;
+        background-color: beige
     }
     /*Containers of all 3 pages*/
     .container-portfolio {
