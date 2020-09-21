@@ -1,6 +1,6 @@
-@media screen and (max-width: 400px){
+@media screen and (min-width: 992px){
     body{
-        background-image: url("assets/spiral.jpg");
+        background-image: url("../assets/spiral.jpg");
     }
     /*Same header for all 3 pages*/
     header{
@@ -31,26 +31,25 @@
     }
     /*Containers of all 3 pages*/
     #portfolio {
-        width: 95%;
+        width: 70%;
         margin-top: 120px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 30px;
         background-color: white;
-        padding: 10px;
+        padding: 20px;
         margin-bottom: 100px;
     }
     #contact,
     #about {
-        max-width: 95%;
+        max-width: 70%;
         margin-top: 120px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 30px;
         background-color: white;
         padding: 20px;
         margin-bottom: 100px;
     }
     #portfolio img{
-        margin: 0px 20px 10px 20px;
+        margin: 15px;
+        width: auto;
     }
     /*the headshot*/
     #about article{
@@ -58,10 +57,10 @@
         background-color: white;
     }
     #float-left{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         float: left;
-        margin-right: 10px;
+        margin-right: 25px;
     }
     #contact h1,
     #about h1, 
