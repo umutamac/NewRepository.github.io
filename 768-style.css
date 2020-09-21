@@ -29,7 +29,7 @@
         background-color: beige
     }
     /*Containers of all 3 pages*/
-    .container-portfolio {
+    #portfolio {
         width: 70%;
         margin-top: 120px;
         margin-left: 30px;
@@ -37,8 +37,8 @@
         padding: 20px;
         margin-bottom: 100px;
     }
-    .container-contact,
-    .container-index {
+    #contact,
+    #about {
         max-width: 70%;
         margin-top: 120px;
         margin-left: 30px;
@@ -47,7 +47,7 @@
         margin-bottom: 100px;
     }
     /*the headshot*/
-    .container-index article{
+    #about article{
         display: inline;
         background-color: white;
     }
@@ -57,9 +57,9 @@
         float: left;
         margin-right: 25px;
     }
-    .container-contact h1,
-    .container-index h1, 
-    .container-portfolio h1 {
+    #contact h1,
+    #about h1, 
+    #portfolio h1 {
         color: teal;
     }
     /*Same footer for all 3 pages*/
