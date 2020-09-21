@@ -26,7 +26,7 @@
     }
     header .navbar{
         float: right;
-        background-color: beige
+        background-color: beige;
     }
     /*Containers of all 3 pages*/
     #portfolio {
@@ -45,6 +45,10 @@
         background-color: white;
         padding: 20px;
         margin-bottom: 100px;
+    }
+    #portfolio img{
+        margin: 15px;
+        width: auto;
     }
     /*the headshot*/
     #about article{

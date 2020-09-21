@@ -27,11 +27,11 @@
     }
     header .navbar{
         float: right;
-        background-color: beige
+        background-color: beige;
     }
     /*Containers of all 3 pages*/
     #portfolio {
-        width: fit-content;
+        width: 70%;
         margin-top: 120px;
         margin-left: 30px;
         background-color: white;
@@ -40,12 +40,16 @@
     }
     #contact,
     #about {
-        max-width: 67%;
+        max-width: 70%;
         margin-top: 120px;
         margin-left: 30px;
         background-color: white;
         padding: 20px;
         margin-bottom: 100px;
+    }
+    #portfolio img{
+        margin: 15px;
+        width: auto;
     }
     /*the headshot*/
     #about article{
