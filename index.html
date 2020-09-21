@@ -7,7 +7,9 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    <link rel="styleshet" href="index-style.css">
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="992-style.css">
+    <link rel="stylesheet" href="768-style.css">
+    <link rel="stylesheet" href="400-style.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -15,35 +17,31 @@
 </head>
 <body>
     <header>
-        <div class="row">
-            <div class="col-md-5">
-                <h1><span>Umut A. Alptekin</span></h1>
+        <div class="header-row">
+            <div class="name">
+                <span>Umut A. ALPTEKIN</span>
             </div>
-            <div class="col-md-3">
-                <!-- Empty space between name and navbar-->
-            </div>
-            <div class="col-md-4">
-                <nav> 
-                    <ul class="nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+
+            <nav> 
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                        <a class="dropdown-item" href="#">About</a>
+                    </div>
+                    </div>
+            </nav>
+        </div>
     </header>
 
     <article class="container-index">
         <h1>About Me</h1>
         <hr>
         <br>
-        <img id="float-left" width="200px" height="200px" alt="Umut-Alptekin" src="assets/Alptekin_U_01.jpg">
+        <img id="float-left" alt="Umut-Alptekin" src="assets/Alptekin_U_01.jpg">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis sit reprehenderit facere quo voluptatem molestias nulla. Numquam dolorum, voluptatibus nostrum beatae delectus quia, in similique, iure animi maxime facere.
         Exercitationem ea possimus quisquam quia ullam voluptatum deserunt veritatis beatae similique repellat ab perspiciatis laborum quasi omnis sint magnam, impedit eos. Aperiam obcaecati neque odio at sed similique eaque consequuntur?</p>
 

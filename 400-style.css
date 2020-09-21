@@ -1,0 +1,78 @@
+@media screen and (max-width: 400px){
+    body{
+        background-image: url("assets/spiral.jpg");
+    }
+    /*Same header for all 3 pages*/
+    header{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        padding: 10px;
+        background-color: beige;
+    }
+    .header-row{
+        margin: 0px 10px;
+    }
+    header span{
+        float: left;
+        font-size: x-large;
+        font-weight: bold;
+        color: white;
+        background-color: teal;
+    }
+    header .dropdown{
+        float: right;
+    }
+    /*Containers of all 3 pages*/
+    .container-portfolio {
+        width: 95%;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 20px 5px;
+        margin-bottom: 100px;
+    }
+    .container-contact,
+    .container-index {
+        max-width: 95%;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+    /*the headshot*/
+    .container-index article{
+        display: inline;
+        background-color: white;
+    }
+    #float-left{
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 10px;
+    }
+    .container-contact h1,
+    .container-index h1, 
+    .container-portfolio h1 {
+        color: teal;
+    }
+    /*Same footer for all 3 pages*/
+    footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+    footer .teal-portion{
+        bottom: 30px;
+        height: 10px;
+        background-color: rgb(0, 252, 218);
+    }
+    footer .gray-portion{
+        bottom: 0;
+        height: 30px;
+        background-color: rgb(78, 78, 77);
+    }
+}
