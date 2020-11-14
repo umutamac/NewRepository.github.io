@@ -1,7 +1,7 @@
 body{
     background-image: url("../assets/Blue-Pattern-Background-Photos.jpg");
     background-position: center;
-    position: relative;
+    
 }
 .nav-wrapper {
     background-color: #14b5d0 ;
@@ -27,18 +27,27 @@ img {
     margin-bottom: 100px;
     background-color: white;
     padding: 20px;
- 
 }
 
 .page-footer {
     background-color: grey;
-    width: 50%;
-    position: absolute;
-    bottom: 0px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-#icons-container-right {
+.footer-left {
     position: relative;
-	float: right;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 60%;
+}
+.icons-container-right {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    float: right;
+    width: 40%;
 }
 .icon {
     position: relative;
