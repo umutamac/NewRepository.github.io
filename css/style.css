@@ -6,15 +6,21 @@ body{
 .nav-wrapper {
     background-color: #14b5d0 ;
 }
-img {
-    height: 200px;
-}
 #name {
     font-size: xx-large;
     font-family: 'Arvo', serif;
 }
+#headshot {
+    height: 200px;
+}
+.portfolioImage {
+    max-height: 400px;
+}
+
 #portfolio {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: white;
@@ -22,7 +28,9 @@ img {
 }
 #contact,
 #about {
-    max-width: 70%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
     background-color: white;
@@ -30,7 +38,6 @@ img {
 }
 
 .page-footer {
-    background-color: grey;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
